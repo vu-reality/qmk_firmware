@@ -298,9 +298,9 @@ bool encoder_update_kb(uint8_t index, bool clockwise) {
     } else if (index == 1) {
         // Page up/Page down
         if (clockwise) {
-            tap_code(KC_PGDN);
+            tap_code16(LCTL(KC_PPLS));
         } else {
-            tap_code(KC_PGUP);
+          tap_code16(LCTL(KC_PMNS));
         }
     }
     return true;
