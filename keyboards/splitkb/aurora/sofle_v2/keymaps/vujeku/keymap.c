@@ -7,6 +7,7 @@
  * edit it directly.
  */
 //qmk compile -e CONVERT_TO=liatris -kb splitkb/aurora/sofle_v2 -km vujeku
+//qmk compile -e -kb splitkb/aurora/sofle_v2 -km vujeku
 
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
