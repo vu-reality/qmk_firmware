@@ -8,6 +8,8 @@
  */
 //qmk compile -e CONVERT_TO=liatris -kb splitkb/aurora/sofle_v2 -km vujeku
 //qmk compile -e -kb splitkb/aurora/sofle_v2 -km vujeku
+// qmk flash -kb splitkb/aurora/sofle_v2 -km vujeku
+// qmk flash -e CONVERT_TO=liatris -kb splitkb/aurora/sofle_v2 -km vujeku
 
 
 void keyboard_pre_init_user(void) {
